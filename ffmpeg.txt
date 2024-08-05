@@ -1,0 +1,1 @@
+ffmpeg -i rtmp://100.82.150.1:1935/live/stream -c:v copy -c:a copy -f hls C:\nginx-rtmp-win32-dev\html\temp\hls\stream.m3u8
